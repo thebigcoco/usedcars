@@ -1,0 +1,1025 @@
+[
+ {
+  "id": "2417",
+  "title": "Mercedes-AMG C 63 S E",
+  "seller": "中彰賓士台中展示中心",
+  "make": "2023/12",
+  "promo": "M-AMG C63 S E",
+  "_price": "520",
+  "_mileage": "4,721",
+  "brand": "2",
+  "region": "中彰投",
+  "array": {
+   "bodyType": "Car",
+   "series": "10",
+   "price": 520,
+   "mileage": 4721,
+   "did": "13",
+   "age": 202312,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202502031446458210200156.jpg",
+   "/images/Car/718/484/202502031446458210209947.jpg",
+   "/images/Car/718/484/202502031446458210200169.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2023/12",
+   "掛牌年份": "2024/06",
+   "車色": "層峰灰",
+   "引擎動能型式": "汽油",
+   "排氣量": "1991 c.c."
+  }
+ },
+ {
+  "id": "3725",
+  "title": "Mercedes-AMG A 35 4M",
+  "seller": "中華賓士南港展示中心",
+  "make": "2024/03",
+  "promo": "AMG 性能的豪華鋼砲",
+  "_price": "210.8",
+  "_mileage": "2,537",
+  "brand": "2",
+  "region": "大台北",
+  "array": {
+   "bodyType": "Car",
+   "series": "8",
+   "price": 210.8,
+   "mileage": 2537,
+   "did": "1",
+   "age": 202403,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202607301637116198196655.jpg",
+   "/images/Car/718/484/202607301637116198198049.jpg",
+   "/images/Car/718/484/202607301637116198196599.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2024/03",
+   "掛牌年份": "2025/03",
+   "車色": "白",
+   "引擎動能型式": "汽油含混合動力",
+   "排氣量": "1999 c.c."
+  }
+ },
+ {
+  "id": "3964",
+  "title": "Mercedes-AMG C 43 4M",
+  "seller": "聯立賓士新竹展示中心",
+  "make": "2019/02",
+  "promo": "低里程、原廠保養紀錄、原鈑件",
+  "_price": "146",
+  "_mileage": "51,480",
+  "brand": "2",
+  "region": "桃竹苗",
+  "array": {
+   "bodyType": "Car",
+   "series": "10",
+   "price": 146,
+   "mileage": 51480,
+   "did": "16",
+   "age": 201902,
+   "seat": "FourToFive",
+   "chosen": "normal"
+  },
+  "images": [
+   "/images/Car/718/484/202606281041342945719828.jpg",
+   "/images/Car/718/484/202606281041342945712074.jpg",
+   "/images/Car/718/484/202606281041343101981800.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2019/02",
+   "掛牌年份": "2019/03",
+   "車色": "白",
+   "引擎動能型式": "汽油",
+   "排氣量": "2996 c.c."
+  }
+ },
+ {
+  "id": "3978",
+  "title": "Mercedes-Benz C 200",
+  "seller": "聯立賓士新竹展示中心",
+  "make": "2024/02",
+  "promo": "新車原廠保固中",
+  "_price": "196",
+  "_mileage": "17,525",
+  "brand": "1",
+  "region": "桃竹苗",
+  "array": {
+   "bodyType": "Car",
+   "series": "5",
+   "price": 196,
+   "mileage": 17525,
+   "did": "16",
+   "age": 202402,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202607021127214731447783.jpg",
+   "/images/Car/718/484/202607021127214731441827.jpg",
+   "/images/Car/718/484/202607021127214731447343.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2024/02",
+   "掛牌年份": "2024/04",
+   "車色": "白",
+   "引擎動能型式": "汽油含混合動力",
+   "排氣量": "1496 c.c."
+  }
+ },
+ {
+  "id": "3997",
+  "title": "Mercedes-Benz C 300",
+  "seller": "中華賓士河南中古車展示中心",
+  "make": "2024/02",
+  "promo": "詳情請洽展示中心.",
+  "_price": "235.8",
+  "_mileage": "10,618",
+  "brand": "1",
+  "region": "中彰投",
+  "array": {
+   "bodyType": "Car",
+   "series": "5",
+   "price": 235.8,
+   "mileage": 10618,
+   "did": "6",
+   "age": 202402,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202607101115537063826164.jpg",
+   "/images/Car/718/484/202607101115537063820055.jpg",
+   "/images/Car/718/484/202607101115537063825524.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2024/02",
+   "掛牌年份": "2025/03",
+   "車色": "鐵黑",
+   "引擎動能型式": "汽油含混合動力",
+   "排氣量": "1999 c.c."
+  }
+ },
+ {
+  "id": "4008",
+  "title": "Mercedes-Benz C 200",
+  "seller": "德冠賓士北高雄展示中心",
+  "make": "2025/03",
+  "promo": "豪華中型房車",
+  "_price": "205",
+  "_mileage": "16,815",
+  "brand": "1",
+  "region": "高屏",
+  "array": {
+   "bodyType": "Car",
+   "series": "5",
+   "price": 205,
+   "mileage": 16815,
+   "did": "14",
+   "age": 202503,
+   "seat": "FourToFive",
+   "chosen": "normal"
+  },
+  "images": [
+   "/images/Car/718/484/202608101122501813732683.jpg",
+   "/images/Car/718/484/202608101122501813731650.jpg",
+   "/images/Car/718/484/202608101122501969993323.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2025/03",
+   "掛牌年份": "2025/04",
+   "車色": "藍",
+   "引擎動能型式": "汽油含混合動力",
+   "排氣量": "1500 c.c."
+  }
+ },
+ {
+  "id": "4121",
+  "title": "Mercedes-Benz C 300",
+  "seller": "台隆賓士濱江展示中心",
+  "make": "2024/07",
+  "promo": "熱門車款",
+  "_price": "235",
+  "_mileage": "3,931",
+  "brand": "1",
+  "region": "大台北",
+  "array": {
+   "bodyType": "Car",
+   "series": "5",
+   "price": 235,
+   "mileage": 3931,
+   "did": "9",
+   "age": 202407,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202611072200129098658157.jpg",
+   "/images/Car/718/484/202611072200129254763969.jpg",
+   "/images/Car/718/484/202611072200129254761718.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2024/07",
+   "掛牌年份": "2025/12",
+   "車色": "黑",
+   "引擎動能型式": "汽油",
+   "排氣量": "1999 c.c."
+  }
+ },
+ {
+  "id": "4178",
+  "title": "Mercedes-Benz C 200",
+  "seller": "台隆賓士濱江展示中心",
+  "make": "2023/05",
+  "promo": ".",
+  "_price": "162",
+  "_mileage": "45,365",
+  "brand": "1",
+  "region": "大台北",
+  "array": {
+   "bodyType": "Car",
+   "series": "5",
+   "price": 162,
+   "mileage": 45365,
+   "did": "9",
+   "age": 202305,
+   "seat": "FourToFive",
+   "chosen": "normal"
+  },
+  "images": [
+   "/images/Car/718/484/202609091518337992815119.jpg",
+   "/images/Car/718/484/202609091518337992817036.jpg",
+   "/images/Car/718/484/202609091518337992816169.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2023/05",
+   "掛牌年份": "2023/08",
+   "車色": "白",
+   "引擎動能型式": "汽油",
+   "排氣量": "1496 c.c."
+  }
+ },
+ {
+  "id": "4221",
+  "title": "Mercedes-Benz C 300",
+  "seller": "中華賓士台南展示中心",
+  "make": "2023/03",
+  "promo": "實際交車配備內容請以賓士展示中心為準。",
+  "_price": "198.8",
+  "_mileage": "42,208",
+  "brand": "1",
+  "region": "雲嘉南",
+  "array": {
+   "bodyType": "Car",
+   "series": "5",
+   "price": 198.8,
+   "mileage": 42208,
+   "did": "7",
+   "age": 202303,
+   "seat": "FourToFive",
+   "chosen": "normal"
+  },
+  "images": [
+   "/images/Car/718/484/202610051656291663316180.jpg",
+   "/images/Car/718/484/202610051656291663314043.jpg",
+   "/images/Car/718/484/202610051656291663314503.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2023/03",
+   "掛牌年份": "2023/04",
+   "車色": "白",
+   "引擎動能型式": "汽油",
+   "排氣量": "1999 c.c."
+  }
+ },
+ {
+  "id": "4256",
+  "title": "Mercedes-Benz A 180",
+  "seller": "台隆賓士濱江展示中心",
+  "make": "2024/03",
+  "promo": ".",
+  "_price": "143",
+  "_mileage": "11,211",
+  "brand": "1",
+  "region": "大台北",
+  "array": {
+   "bodyType": "Car",
+   "series": "2",
+   "price": 143,
+   "mileage": 11211,
+   "did": "9",
+   "age": 202403,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202610130927472276434433.jpg",
+   "/images/Car/718/484/202610130927472432681023.jpg",
+   "/images/Car/718/484/202610130927472432687537.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2024/03",
+   "掛牌年份": "2025/03",
+   "車色": "白",
+   "引擎動能型式": "汽油",
+   "排氣量": "1332 c.c."
+  }
+ },
+ {
+  "id": "4273",
+  "title": "Mercedes-Benz C 200",
+  "seller": "中華賓士河南中古車展示中心",
+  "make": "2021/12",
+  "promo": "詳情請洽展示中心.",
+  "_price": "135.8",
+  "_mileage": "52,123",
+  "brand": "1",
+  "region": "中彰投",
+  "array": {
+   "bodyType": "Car",
+   "series": "5",
+   "price": 135.8,
+   "mileage": 52123,
+   "did": "6",
+   "age": 202112,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202610081444400251293426.jpg",
+   "/images/Car/718/484/202610081444400251292984.jpg",
+   "/images/Car/718/484/202610081444400407547902.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2021/12",
+   "掛牌年份": "2022/03",
+   "車色": "銀粉漆-墨灰",
+   "引擎動能型式": "汽油含混合動力",
+   "排氣量": "1496 c.c."
+  }
+ },
+ {
+  "id": "4281",
+  "title": "Mercedes-AMG A 35 4M",
+  "seller": "中華賓士河南中古車展示中心",
+  "make": "2024/03",
+  "promo": "詳情請洽展示中心.",
+  "_price": "210.8",
+  "_mileage": "6,319",
+  "brand": "2",
+  "region": "中彰投",
+  "array": {
+   "bodyType": "Car",
+   "series": "8",
+   "price": 210.8,
+   "mileage": 6319,
+   "did": "6",
+   "age": 202403,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202610131038286962519361.jpg",
+   "/images/Car/718/484/202610131038286962519901.jpg",
+   "/images/Car/718/484/202610131038286962512328.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2024/03",
+   "掛牌年份": "2025/07",
+   "車色": "白",
+   "引擎動能型式": "汽油含混合動力",
+   "排氣量": "1991 c.c."
+  }
+ },
+ {
+  "id": "4298",
+  "title": "Mercedes-Benz C 200",
+  "seller": "中華賓士關渡展示中心",
+  "make": "2025/09",
+  "promo": "高額度、低頭款、低分期利率",
+  "_price": "218.8",
+  "_mileage": "16,478",
+  "brand": "1",
+  "region": "大台北",
+  "array": {
+   "bodyType": "Car",
+   "series": "5",
+   "price": 218.8,
+   "mileage": 16478,
+   "did": "2",
+   "age": 202509,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202610141638569218698764.jpg",
+   "/images/Car/718/484/202610141638569218694311.jpg",
+   "/images/Car/718/484/202610141638569218698963.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2025/09",
+   "掛牌年份": "2026/02",
+   "車色": "鐵黑",
+   "引擎動能型式": "汽油",
+   "排氣量": "1496 c.c."
+  }
+ },
+ {
+  "id": "4302",
+  "title": "Mercedes-AMG A 45 S 4M+",
+  "seller": "中華賓士關渡展示中心",
+  "make": "2025/04",
+  "promo": "高額度、低頭款、低分期利率",
+  "_price": "279.8",
+  "_mileage": "9,000",
+  "brand": "2",
+  "region": "大台北",
+  "array": {
+   "bodyType": "Car",
+   "series": "8",
+   "price": 279.8,
+   "mileage": 9000,
+   "did": "2",
+   "age": 202504,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202610150904374102166742.png",
+   "/images/Car/718/484/202610150904374102161375.png",
+   "/images/Car/718/484/202610150904374102163201.png"
+  ],
+  "detail": {
+   "出廠年份": "2025/04",
+   "掛牌年份": "2026/01",
+   "車色": "亮黑",
+   "引擎動能型式": "汽油",
+   "排氣量": "1991 c.c."
+  }
+ },
+ {
+  "id": "4306",
+  "title": "Mercedes-Benz A 180",
+  "seller": "德冠賓士新北展示中心",
+  "make": "2025/06",
+  "promo": ".",
+  "_price": "149.8",
+  "_mileage": "4,576",
+  "brand": "1",
+  "region": "大台北",
+  "array": {
+   "bodyType": "Car",
+   "series": "2",
+   "price": 149.8,
+   "mileage": 4576,
+   "did": "10",
+   "age": 202506,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202610221523309594635093.jpg",
+   "/images/Car/718/484/202610221523309594634341.jpg",
+   "/images/Car/718/484/202610221523309750916074.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2025/06",
+   "掛牌年份": "2026/03",
+   "車色": "白",
+   "引擎動能型式": "汽油",
+   "排氣量": "1332 c.c."
+  }
+ },
+ {
+  "id": "4319",
+  "title": "Mercedes-Benz A 180",
+  "seller": "中彰賓士台中展示中心",
+  "make": "2025/07",
+  "promo": "A180 FL",
+  "_price": "149",
+  "_mileage": "6,745",
+  "brand": "1",
+  "region": "中彰投",
+  "array": {
+   "bodyType": "Car",
+   "series": "2",
+   "price": 149,
+   "mileage": 6745,
+   "did": "13",
+   "age": 202507,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202610191205183051913515.jpg",
+   "/images/Car/718/484/202610191205183051910525.jpg",
+   "/images/Car/718/484/202610191205183051917366.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2025/07",
+   "掛牌年份": "2026/01",
+   "車色": "白",
+   "引擎動能型式": "汽油含混合動力",
+   "排氣量": "1332 c.c."
+  }
+ },
+ {
+  "id": "4321",
+  "title": "Mercedes-Benz C 200",
+  "seller": "中彰賓士台中展示中心",
+  "make": "2024/12",
+  "promo": "C200",
+  "_price": "205",
+  "_mileage": "7,042",
+  "brand": "1",
+  "region": "中彰投",
+  "array": {
+   "bodyType": "Car",
+   "series": "5",
+   "price": 205,
+   "mileage": 7042,
+   "did": "13",
+   "age": 202412,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202610191343133815764598.jpg",
+   "/images/Car/718/484/202610191343133815765016.jpg",
+   "/images/Car/718/484/202610191343133815764549.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2024/12",
+   "掛牌年份": "2025/04",
+   "車色": "白",
+   "引擎動能型式": "汽油含混合動力",
+   "排氣量": "1496 c.c."
+  }
+ },
+ {
+  "id": "4348",
+  "title": "Mercedes-Benz C 300",
+  "seller": "中華賓士高屏展示中心",
+  "make": "2024/03",
+  "promo": "熱門車款",
+  "_price": "239.8",
+  "_mileage": "6,054",
+  "brand": "1",
+  "region": "高屏",
+  "array": {
+   "bodyType": "Car",
+   "series": "5",
+   "price": 239.8,
+   "mileage": 6054,
+   "did": "8",
+   "age": 202403,
+   "seat": "FourToFive",
+   "chosen": "normal"
+  },
+  "images": [
+   "/images/Car/718/484/202610261112047750309509.jpg",
+   "/images/Car/718/484/202610261112047750301558.jpg",
+   "/images/Car/718/484/202610261112047750309261.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2024/03",
+   "掛牌年份": "2025/03",
+   "車色": "黑",
+   "引擎動能型式": "汽油含混合動力",
+   "排氣量": "1999 c.c."
+  }
+ },
+ {
+  "id": "4356",
+  "title": "Mercedes-AMG A 35 4M",
+  "seller": "中華賓士關渡展示中心",
+  "make": "2024/05",
+  "promo": "高額度、低頭款、低分期利率",
+  "_price": "210.8",
+  "_mileage": "4,591",
+  "brand": "2",
+  "region": "大台北",
+  "array": {
+   "bodyType": "Car",
+   "series": "8",
+   "price": 210.8,
+   "mileage": 4591,
+   "did": "2",
+   "age": 202405,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202610281148364095999245.png",
+   "/images/Car/718/484/202610281148364095997012.png",
+   "/images/Car/718/484/202610281148364095996567.png"
+  ],
+  "detail": {
+   "出廠年份": "2024/05",
+   "掛牌年份": "2025/07",
+   "車色": "亮黑",
+   "引擎動能型式": "汽油",
+   "排氣量": "1991 c.c."
+  }
+ },
+ {
+  "id": "4361",
+  "title": "Mercedes-Benz C 180",
+  "seller": "中彰賓士台中展示中心",
+  "make": "2025/03",
+  "promo": "C180",
+  "_price": "182",
+  "_mileage": "6,946",
+  "brand": "1",
+  "region": "中彰投",
+  "array": {
+   "bodyType": "Car",
+   "series": "5",
+   "price": 182,
+   "mileage": 6946,
+   "did": "13",
+   "age": 202503,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202610281721383667022420.jpg",
+   "/images/Car/718/484/202610281721383667021496.jpg",
+   "/images/Car/718/484/202610281721383667021850.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2025/03",
+   "掛牌年份": "2026/01",
+   "車色": "白",
+   "引擎動能型式": "汽油含混合動力",
+   "排氣量": "1496 c.c."
+  }
+ },
+ {
+  "id": "4366",
+  "title": "Mercedes-AMG A 35 4M",
+  "seller": "中華賓士台南展示中心",
+  "make": "2024/05",
+  "promo": "實際交車配備內容請以賓士展示中心為準。",
+  "_price": "210.8",
+  "_mileage": "3,004",
+  "brand": "2",
+  "region": "雲嘉南",
+  "array": {
+   "bodyType": "Car",
+   "series": "8",
+   "price": 210.8,
+   "mileage": 3004,
+   "did": "7",
+   "age": 202405,
+   "seat": "FourToFive",
+   "chosen": "normal"
+  },
+  "images": [
+   "/images/Car/718/484/202610301426187493234984.jpg",
+   "/images/Car/718/484/202610301426187493236437.jpg",
+   "/images/Car/718/484/202610301426187493237137.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2024/05",
+   "掛牌年份": "2025/07",
+   "車色": "黑",
+   "引擎動能型式": "汽油",
+   "排氣量": "1991 c.c."
+  }
+ },
+ {
+  "id": "4367",
+  "title": "Mercedes-Benz A 180",
+  "seller": "中華賓士高屏展示中心",
+  "make": "2020/06",
+  "promo": "熱門車款",
+  "_price": "95.8",
+  "_mileage": "25,461",
+  "brand": "1",
+  "region": "高屏",
+  "array": {
+   "bodyType": "Car",
+   "series": "2",
+   "price": 95.8,
+   "mileage": 25461,
+   "did": "8",
+   "age": 202006,
+   "seat": "FourToFive",
+   "chosen": "normal"
+  },
+  "images": [
+   "/images/Car/718/484/202610301002542046161000.jpg",
+   "/images/Car/718/484/202610301002542046169389.jpg",
+   "/images/Car/718/484/202610301002542046167038.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2020/06",
+   "掛牌年份": "2020/09",
+   "車色": "白",
+   "引擎動能型式": "汽油",
+   "排氣量": "1332 c.c."
+  }
+ },
+ {
+  "id": "4384",
+  "title": "Mercedes-Benz C 200",
+  "seller": "中華賓士高屏展示中心",
+  "make": "2024/02",
+  "promo": "熱門車款",
+  "_price": "185.8",
+  "_mileage": "17,261",
+  "brand": "1",
+  "region": "高屏",
+  "array": {
+   "bodyType": "Car",
+   "series": "5",
+   "price": 185.8,
+   "mileage": 17261,
+   "did": "8",
+   "age": 202402,
+   "seat": "FourToFive",
+   "chosen": "normal"
+  },
+  "images": [
+   "/images/Car/718/484/202611041659345317435330.jpg",
+   "/images/Car/718/484/202611041659345317433137.jpg",
+   "/images/Car/718/484/202611041659345317438809.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2024/02",
+   "掛牌年份": "2024/03",
+   "車色": "白",
+   "引擎動能型式": "汽油含混合動力",
+   "排氣量": "1496 c.c."
+  }
+ },
+ {
+  "id": "4394",
+  "title": "Mercedes-Benz C 200",
+  "seller": "賓泓賓士台南展示中心",
+  "make": "2025/09",
+  "promo": "都會轎車",
+  "_price": "209.8",
+  "_mileage": "4,171",
+  "brand": "1",
+  "region": "雲嘉南",
+  "array": {
+   "bodyType": "Car",
+   "series": "5",
+   "price": 209.8,
+   "mileage": 4171,
+   "did": "12",
+   "age": 202509,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202611060903152780061084.JPG",
+   "/images/Car/718/484/202611060903152780061631.JPG",
+   "/images/Car/718/484/202611060903152936324318.JPG"
+  ],
+  "detail": {
+   "出廠年份": "2025/09",
+   "掛牌年份": "2026/03",
+   "車色": "黑色(197)",
+   "引擎動能型式": "汽油含混合動力",
+   "排氣量": ""
+  }
+ },
+ {
+  "id": "4401",
+  "title": "Mercedes-Benz A 180",
+  "seller": "賓航賓士中和展示中心",
+  "make": "2022/11",
+  "promo": "選配360環景攝影",
+  "_price": "108",
+  "_mileage": "51,956",
+  "brand": "1",
+  "region": "大台北",
+  "array": {
+   "bodyType": "Car",
+   "series": "2",
+   "price": 108,
+   "mileage": 51956,
+   "did": "11",
+   "age": 202211,
+   "seat": "FourToFive",
+   "chosen": "normal"
+  },
+  "images": [
+   "/images/Car/718/484/202611091514268506677352.jpg",
+   "/images/Car/718/484/202611091514268662869133.jpg",
+   "/images/Car/718/484/202611091514268662869216.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2022/11",
+   "掛牌年份": "2023/02",
+   "車色": "深灰",
+   "引擎動能型式": "汽油",
+   "排氣量": "1332 c.c."
+  }
+ },
+ {
+  "id": "4406",
+  "title": "Mercedes-Benz A 180",
+  "seller": "中華賓士河南中古車展示中心",
+  "make": "2025/03",
+  "promo": "詳情請洽展示中心.",
+  "_price": "149.8",
+  "_mileage": "6,698",
+  "brand": "1",
+  "region": "中彰投",
+  "array": {
+   "bodyType": "Car",
+   "series": "2",
+   "price": 149.8,
+   "mileage": 6698,
+   "did": "6",
+   "age": 202503,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202611101347258227826988.jpg",
+   "/images/Car/718/484/202611101347258384095899.jpg",
+   "/images/Car/718/484/202611101347258384097444.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2025/03",
+   "掛牌年份": "2025/11",
+   "車色": "亮黑",
+   "引擎動能型式": "汽油含混合動力",
+   "排氣量": "1332 c.c."
+  }
+ },
+ {
+  "id": "4425",
+  "title": "Mercedes-Benz A 180",
+  "seller": "中華賓士關渡展示中心",
+  "make": "2022/11",
+  "promo": "高額度、低頭款、低分期利率",
+  "_price": "113.8",
+  "_mileage": "34,701",
+  "brand": "1",
+  "region": "大台北",
+  "array": {
+   "bodyType": "Car",
+   "series": "2",
+   "price": 113.8,
+   "mileage": 34701,
+   "did": "2",
+   "age": 202211,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202611170911159719376863.png",
+   "/images/Car/718/484/202611170911159719371888.png",
+   "/images/Car/718/484/202611170911159719370167.png"
+  ],
+  "detail": {
+   "出廠年份": "2022/11",
+   "掛牌年份": "2023/02",
+   "車色": "白",
+   "引擎動能型式": "汽油",
+   "排氣量": "1332 c.c."
+  }
+ },
+ {
+  "id": "4426",
+  "title": "Mercedes-Benz C 300",
+  "seller": "中華賓士關渡展示中心",
+  "make": "2024/03",
+  "promo": "高額度、低頭款、低分期利率",
+  "_price": "239.8",
+  "_mileage": "6,074",
+  "brand": "1",
+  "region": "大台北",
+  "array": {
+   "bodyType": "Car",
+   "series": "5",
+   "price": 239.8,
+   "mileage": 6074,
+   "did": "2",
+   "age": 202403,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202611171130422096292561.jpg",
+   "/images/Car/718/484/202611171130422252537737.jpg",
+   "/images/Car/718/484/202611171130422252530706.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2024/03",
+   "掛牌年份": "2025/03",
+   "車色": "鐵黑",
+   "引擎動能型式": "汽油",
+   "排氣量": "1999 c.c."
+  }
+ },
+ {
+  "id": "4427",
+  "title": "Mercedes-Benz C 180",
+  "seller": "中華賓士南港展示中心",
+  "make": "2023/10",
+  "promo": "超優質價格好車",
+  "_price": "153.8",
+  "_mileage": "11,999",
+  "brand": "1",
+  "region": "大台北",
+  "array": {
+   "bodyType": "Car",
+   "series": "5",
+   "price": 153.8,
+   "mileage": 11999,
+   "did": "1",
+   "age": 202310,
+   "seat": "FourToFive",
+   "chosen": "normal"
+  },
+  "images": [
+   "/images/Car/718/484/202611171142411798274598.jpg",
+   "/images/Car/718/484/202611171142411798275100.jpg",
+   "/images/Car/718/484/202611171142411798272456.jpg"
+  ],
+  "detail": {
+   "出廠年份": "2023/10",
+   "掛牌年份": "2024/01",
+   "車色": "白",
+   "引擎動能型式": "汽油含混合動力",
+   "排氣量": "1496 c.c."
+  }
+ },
+ {
+  "id": "4430",
+  "title": "Mercedes-Benz A 180",
+  "seller": "中華賓士關渡展示中心",
+  "make": "2025/04",
+  "promo": "高額度、低頭款、低分期利率",
+  "_price": "149.8",
+  "_mileage": "6,866",
+  "brand": "1",
+  "region": "大台北",
+  "array": {
+   "bodyType": "Car",
+   "series": "2",
+   "price": 149.8,
+   "mileage": 6866,
+   "did": "2",
+   "age": 202504,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202611171504475174975769.png",
+   "/images/Car/718/484/202611171504475174973390.png",
+   "/images/Car/718/484/202611171504475174979038.png"
+  ],
+  "detail": {
+   "出廠年份": "2025/04",
+   "掛牌年份": "2026/03",
+   "車色": "白",
+   "引擎動能型式": "汽油",
+   "排氣量": "1332 c.c."
+  }
+ },
+ {
+  "id": "4433",
+  "title": "Mercedes-Benz C 200",
+  "seller": "中華賓士關渡展示中心",
+  "make": "2025/10",
+  "promo": "高額度、低頭款、低分期利率",
+  "_price": "213.8",
+  "_mileage": "6,969",
+  "brand": "1",
+  "region": "大台北",
+  "array": {
+   "bodyType": "Car",
+   "series": "5",
+   "price": 213.8,
+   "mileage": 6969,
+   "did": "2",
+   "age": 202510,
+   "seat": "FourToFive",
+   "chosen": "chosen"
+  },
+  "images": [
+   "/images/Car/718/484/202611171523166593129304.png",
+   "/images/Car/718/484/202611171523166749395402.png",
+   "/images/Car/718/484/202611171523166749397285.png"
+  ],
+  "detail": {
+   "出廠年份": "2025/10",
+   "掛牌年份": "2026/02",
+   "車色": "鐵黑",
+   "引擎動能型式": "汽油",
+   "排氣量": "1496 c.c."
+  }
+ }
+]
