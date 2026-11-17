@@ -24,6 +24,33 @@ YAHOO = {
 }
 
 
+# 2 系列 Gran Coupe（四門）：Yahoo汽車 https://autos.yahoo.com.tw/new-cars/model/bmw-2-series-gran-coupe-{年式}
+# F44：218i M Sport（限量版 / Edition M）、220i Edition M、M235i；F74（2025~）：220 M Racing Edition、M235 xDrive Racing Edition
+GC_NEW = {
+    "218i GC": {2020: 179, 2021: 179, 2022: 181, 2023: 181},
+    "220i GC": {2021: 199, 2022: 201, 2023: 201, 2025: 189, 2026: 190},
+    "M235 GC": {2020: 260, 2021: 260, 2022: 264, 2023: 264, 2025: 273, 2026: 275},
+}
+GC_TRIM = {"218i GC": "218i M Sport / Edition M", "220i GC": "220i Edition M（F44）/ 220 M Racing Edition（F74）",
+           "M235 GC": "M235i xDrive（F44）/ M235 xDrive Racing Edition（F74）"}
+GC_ORDER = ["218i GC", "220i GC", "M235 GC"]
+
+
+def gc_group(name):
+    """'218i Gran Coupe' / '220 M Racing Edition' / 'M235 xDrive ...' -> comparison group."""
+    m = re.match(r"\s*(M235|218|220)", name)
+    return {"218": "218i GC", "220": "220i GC", "M235": "M235 GC"}[m.group(1)] if m else None
+
+
+def gc_new_price(group, year):
+    tbl = GC_NEW[group]
+    for y in (year, year + 1, year - 1):
+        if y in tbl:
+            why = f"Yahoo汽車 {y}年式 {GC_TRIM[group]} {tbl[y]}萬"
+            return tbl[y], why + (f"（{year}年式未列，用相鄰年式）" if y != year else "")
+    raise KeyError(f"no new price for {group} {year}")
+
+
 def new_price(model, gen, year, kit):
     key = f"{model} {kit}" if kit else model
     # 例外：Yahoo 該年式無對應版本時的處理
@@ -51,6 +78,9 @@ MARKET_NEW = {
 
 
 def market_new(group, year):
+    if group in GC_NEW:
+        tbl = GC_NEW[group]
+        return next((tbl[y] for y in (year, year + 1, year - 1) if y in tbl), None)
     return MARKET_NEW.get(group, {}).get(year)
 
 
@@ -66,10 +96,15 @@ def load(path=None):
 def rows_from_bps(d):
     rows = []
     for x in d["data"]:
-        if x["model_name"] not in ("318i", "320i") or not x["model_type"].startswith("Sedan"):
+        if x["series_name"] == "2" and x["model_type"].startswith("Gran Coup"):
+            model = gc_group(x["model_name"]); fam = "2GC"
+            np, note = gc_new_price(model, x["fac_year"])
+        elif x["model_name"] in ("318i", "320i") and x["model_type"].startswith("Sedan"):
+            model = fam = x["model_name"]
+            np, note = new_price(x["model_name"], x["source_no"], x["fac_year"], x["kit_name"])
+        else:
             continue
-        np, note = new_price(x["model_name"], x["source_no"], x["fac_year"], x["kit_name"])
-        rows.append(dict(id=x["id"], url=f'https://bps.bmw.com.tw/info/{x["id"]}', model=x["model_name"], family=x["model_name"],
+        rows.append(dict(id=x["id"], url=f'https://bps.bmw.com.tw/info/{x["id"]}', model=model, family=fam,
                          gen=x["source_no"], kit=x["kit_name"] or "—", color_cat=x["color_category_name"] or "—",
                          fac=f'{x["fac_year"]}/{x["fac_month"]:02d}', year=x["fac_year"],
                          lic=f'{x["lic_year"]}/{x["lic_month"]:02d}', lic_date=datetime.date(x["lic_year"], x["lic_month"], 1),
@@ -79,7 +114,9 @@ def rows_from_bps(d):
 
 
 def group_of(o):
-    """8891 listing -> comparison group (318i / 320i Sedan only)."""
+    """8891 listing -> comparison group (318i / 320i Sedan, 2-Series Gran Coupe)."""
+    if o.get("kindEnName") == "2-Series Gran Coupe":
+        return gc_group(o["modelEnName"])
     if "Sedan" not in o.get("kindEnName", ""):
         return None
     m = o["modelEnName"][:4]
@@ -88,21 +125,23 @@ def group_of(o):
 
 CFG = dict(
     title="BMW 認證中古車 vs 市場行情", h1="BMW 原廠認證中古車 vs 二手車市場行情",
-    sub="318i / 320i Sedan｜BPS：bps.bmw.com.tw｜市場：8891中古車",
+    sub="3 系列 318i / 320i Sedan、2 系列 Gran Coupe（四門）｜BPS：bps.bmw.com.tw｜市場：8891中古車",
     cert="BPS", cert_re=re.compile(r"原廠認證|BPS|Premium Selection", re.I),
-    families=[("318i", "318i"), ("320i", "320i")], storage_key="bmw5",
-    family_of=lambda g: g, market_new=market_new,
-    buy_advice=("<li><b>結論（2026-11 資料）：買約 3 年的車最划算。</b>新車或 1 年車開 3 年要虧掉買價約 30~42%；3 年車開 3 年只虧約 22~25%，320i 買 4 年車甚至只虧約 14%。</li>"
+    families=[("318i", "318i"), ("320i", "320i"), ("2GC", "2 系列 Gran Coupe")], model_order=["318i", "320i"] + GC_ORDER, storage_key="bmw6",
+    family_of=lambda g: "2GC" if g.endswith(" GC") else g, market_new=market_new,
+    buy_advice=("<li><b>結論（2026-11 資料）：3 系列買約 3 年的車最划算。</b>新車或 1 年車開 3 年要虧掉買價約 30~42%；3 年車開 3 年只虧約 22~25%，320i 買 4 年車甚至只虧約 14%。</li>"
+                "<li><b>2 系列 Gran Coupe</b>：第一年折約 15%（F74 220），F44 218i 4~6 年已折掉新車價 44~55%。2023~2024 年市場上幾乎沒有這款車，2~3 年車樣本不足，算不出最划算的車齡；表中「1 年 → 4 年」橫跨 F74 與 F44 兩代，僅供參考。"
+                "BPS 的 2025 年 220 Gran Coupe 比同里程行情便宜約 2%，2022 年 218i 與行情持平；2020~2021 年的 218i 則貴約 9~13%。</li>"
                 "<li><b>第一年折最多</b>：318i / 320i 第一年就折掉新車價約 21~24%，之後每年多折約 4~9 個百分點，5 年後約剩新車價一半。</li>"
                 "<li><b>5~7 年車反而變貴</b>：開 3 年要虧 40~50%（8 年以上車價已低，約 30~36%），因為會碰上換代與小改款的價格斷層：2018 年 F30 → 2020 年 G20 換代、2022 → 2023 年小改款，舊款會一次掉一大截。</li>"
                 "<li><b>加上認證車</b>：3 年內的 BPS 認證車價格與同里程市場車幾乎相同（±2% 內），卻多了原廠認證保固與保養紀錄，<b>2~3 年的 BPS 車 CP 值最高</b>。</li>"),
-    trend_note="市場車以該年式主力版本牌價估算（318i：F30 標準版／G20 Luxury、Sport；320i：Sport Line／M Sport），未區分版本。",
-    market_note='擷取 <a href="https://auto.8891.com.tw/bmw/3-series/318i" target="_blank">8891中古車</a> 318i、320i 全部在售刊登（%%N_ITEMS%% 筆），',
+    trend_note="市場車以該年式主力版本牌價估算（318i：F30 標準版／G20 Luxury、Sport；320i：Sport Line／M Sport；2 系列 Gran Coupe：218i M Sport、220i Edition M／220 M Racing Edition、M235），未區分版本。",
+    market_note='擷取 <a href="https://auto.8891.com.tw/bmw/3-series/318i" target="_blank">8891中古車</a> 318i、320i 與 2 系列全部在售刊登（%%N_ITEMS%% 筆），2 系列只取「2-Series Gran Coupe」（四門），依車型（218i / 220i / M235）分組，',
     newprice_note='取自 <a href="https://autos.yahoo.com.tw/new-cars/make/bmw" target="_blank">Yahoo汽車</a> 各年式牌價，以出廠年對應年式、依版本配對（滑鼠移到數字看依據）；少數缺漏改用相鄰年式或上市新聞價格，約 ±3 萬誤差。',
-    variant_note="版本差異（Luxury / Sport / M Sport）、選配與車況未納入行情比較，同組內配備較高的車價格偏高屬正常。",
+    variant_note="版本差異（Luxury / Sport / M Sport）、選配與車況未納入行情比較，同組內配備較高的車價格偏高屬正常。2 系列 Gran Coupe 有兩代：F44（2020~2023，218i / 220i / M235i）與 F74（2025~，220 / M235），2024 年無新車導入；BPS 的「220 Gran Coupe」（F74）與 220i 併為「220i GC」組，依年份自然分開兩代。",
 )
 
 if __name__ == "__main__":
     data = load(sys.argv[1] if len(sys.argv) > 1 else None)
-    items = load_8891(["bmw/3-series/318i", "bmw/3-series/320i"], "8891_items.json", sys.argv[2] if len(sys.argv) > 2 else None)
+    items = load_8891(["bmw/3-series/318i", "bmw/3-series/320i", "bmw/2-series"], "8891_items.json", sys.argv[2] if len(sys.argv) > 2 else None)
     make_report(rows_from_bps(data), items, group_of, CFG, "bmw_318i_320i_report.html", "bmw_318i_320i_data.json")

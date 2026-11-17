@@ -4,7 +4,7 @@
 
 | 報告 | 認證車來源 | 產生程式 |
 |---|---|---|
-| [BMW 318i / 320i Sedan](bmw_318i_320i_report.html) | bps.bmw.com.tw | `build_report.py` |
+| [BMW 318i / 320i Sedan、2 系列 Gran Coupe](bmw_318i_320i_report.html) | bps.bmw.com.tw | `build_report.py` |
 | [Mercedes-Benz A-Class / C-Class Sedan](benz_a_c_report.html) | mercedes-benz-select.com.tw | `build_benz_report.py` |
 
 - 比較方式：同車款、同出廠年份，並以里程最接近的 7 台 8891 市場車中位數作為「同里程行情」
